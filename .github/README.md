@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-internetmonitor`](https://www.npmjs.com/package/@aws-sdk/client-internetmonitor/v/3.1054.0).
+[`@aws-sdk/client-internetmonitor`](https://www.npmjs.com/package/@aws-sdk/client-internetmonitor/v/3.1055.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-internetmonitor - [https://cloud-sdk-builds.github.io/?sdk=client-internetmonitor](https://cloud-sdk-builds.github.io/?sdk=client-internetmonitor)
-- @aws-sdk/client-internetmonitor v3.1054.0 - [https://cloud-sdk-builds.github.io/?sdk=client-internetmonitor&version=3.1054.0](https://cloud-sdk-builds.github.io/?sdk=client-internetmonitor&version=3.1054.0)
+- @aws-sdk/client-internetmonitor v3.1055.0 - [https://cloud-sdk-builds.github.io/?sdk=client-internetmonitor&version=3.1055.0](https://cloud-sdk-builds.github.io/?sdk=client-internetmonitor&version=3.1055.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-internetmonitor@3.1054.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-internetmonitor@3.1055.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-tJsV0mCwBePNTXuaqc1cJ5Do/q0q7IlD2znvQ6GNCZG5VFU8oXZGEcNGRH3md7/O
+sha384-dUGe3ul4hnrXV3XB3/9Qu8Q8bH0w0lWK1W1DJOo7j/oW4Tkf7fBf7KGWmHoaUqnm
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-internetmonitor": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-internetmonitor@3.1054.0/index.min.mjs"
+            "@aws-sdk/client-internetmonitor": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-internetmonitor@3.1055.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-internetmonitor@3.1054.0/index.min.mjs": "sha384-tJsV0mCwBePNTXuaqc1cJ5Do/q0q7IlD2znvQ6GNCZG5VFU8oXZGEcNGRH3md7/O"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-internetmonitor@3.1055.0/index.min.mjs": "sha384-dUGe3ul4hnrXV3XB3/9Qu8Q8bH0w0lWK1W1DJOo7j/oW4Tkf7fBf7KGWmHoaUqnm"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-internetmonitor": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-internetmonitor@3.1054.0/index.min.mjs"
+                        "@aws-sdk/client-internetmonitor": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-internetmonitor@3.1055.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-internetmonitor@3.1054.0/index.min.mjs": "sha384-tJsV0mCwBePNTXuaqc1cJ5Do/q0q7IlD2znvQ6GNCZG5VFU8oXZGEcNGRH3md7/O"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-internetmonitor@3.1055.0/index.min.mjs": "sha384-dUGe3ul4hnrXV3XB3/9Qu8Q8bH0w0lWK1W1DJOo7j/oW4Tkf7fBf7KGWmHoaUqnm"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1054.0`)
+* Always pin to a specific version (`@3.1055.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-internetmonitor/blob/refs/tags/3.1054.0/LICENSE
+https://github.com/cloud-sdk-builds/client-internetmonitor/blob/refs/tags/3.1055.0/LICENSE
 ```
 
 ---
